@@ -34,7 +34,7 @@ namespace lab5
         {
             CreateGraphics().DrawRectangle(new Pen(Color.White), StartButton.Location.X + StartButton.Size.Width, StartButton.Location.Y, Width - StartButton.Size.Width, StartButton.Size.Height);
 
-            int numberOfWorkers = 4;
+            int numberOfWorkers = 5;
             int xAxisValue = 0;
             int pointRadius = 10;
             int pointScaler = 100;
